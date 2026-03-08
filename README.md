@@ -30,18 +30,18 @@ The constellation diagrams show the "spread" of received symbols at a specific S
 ### 1. BER Performance Analysis
 The plot below illustrates the Bit Error Rate (BER) as a function of SNR (dB). As expected, both BPSK and QPSK show nearly identical BER performance per bit, following the theoretical Q-function curve.
 
-![BER Performance Plot](ber.png)
+![BER Performance Plot](ber.fig)
 
 ### 2. Constellation Visualizations
 The constellation diagrams represent the signal space. At an SNR of 12 dB, the noise clusters around the ideal points are clearly visible.
 
 #### QPSK Constellation
 QPSK utilizes both the In-phase and Quadrature components, allowing for four distinct states.
-![QPSK Constellation](qpsk.png)
+![QPSK Constellation](qpsk.fig)
 
 #### BPSK Constellation
 BPSK is a one-dimensional modulation where the information is contained only in the In-phase component.
-![BPSK Constellation](bpsk.png)
+![BPSK Constellation](bpsk.fig)
 
 ##  Getting Started
 
